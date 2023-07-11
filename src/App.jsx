@@ -11,7 +11,7 @@ import { useEffect, useState } from 'react';
 const BASE_URL = 'http://localhost:9000';
 
 function App() {
-  const [cities, setCities] = useState({});
+  const [cities, setCities] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -41,7 +41,10 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="app" element={<AppLayout />}>
           <Route index element={<CityList />}></Route>
-          <Route path="cities" element={<CityList />}></Route>
+          <Route
+            path="cities"
+            element={<CityList cities={cities} isLoading={isLoading} />}
+          ></Route>
           <Route path="countries" element={<p>countries</p>}></Route>
           <Route path="form" element={<p>form</p>}></Route>
         </Route>
