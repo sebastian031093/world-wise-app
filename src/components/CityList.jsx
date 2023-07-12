@@ -5,9 +5,8 @@ import CityItem from './CityItem';
 import Message from './Message';
 
 function CityList({ cities, isLoading }) {
-  /* console.log(cities); */
   if (isLoading) return <Spinner></Spinner>;
-
+  // console.log(cities);
   if (!cities.length) return <Message message="Please add your first city" />;
 
   return (
