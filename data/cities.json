@@ -1,52 +1,40 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
+      "cityName": "Nueva Villa de las Torres",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
+      "date": "2023-07-21T01:10:43.632Z",
+      "notes": "test",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "41.250279358876604",
+        "lng": "-5.090331137180329"
       },
-      "id": 17806751
+      "id": 73930387
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Fornelli",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "date": "2023-07-21T01:10:51.843Z",
+      "notes": "test",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "41.64007838467894",
+        "lng": "14.150390625000002"
       },
-      "id": 98443197
+      "id": 73930388
     },
     {
-      "cityName": "Negrepelisse",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2023-07-17T23:30:46.575Z",
-      "notes": "f",
+      "cityName": "Medellin",
+      "country": "Colombia",
+      "emoji": "🇨🇴",
+      "date": "2023-07-21T01:20:00.037Z",
+      "notes": "test",
       "position": {
-        "lat": "44.08758502824518",
-        "lng": "1.4941406250000002"
+        "lat": "6.240248903029657",
+        "lng": "-75.5757808702765"
       },
-      "id": 98443198
+      "id": 73930389
     }
   ]
 }
