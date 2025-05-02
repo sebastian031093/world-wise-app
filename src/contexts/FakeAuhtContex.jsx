@@ -24,7 +24,7 @@ const FAKE_USER = {
   email: 'jack@example.com',
   password: 'qwerty',
   // avatar: 'https://i.pravatar.cc/100?u=zz',
-  avatar: '../../public/miguel.jpg',
+  avatar: '/miguel.jpg',
 };
 
 function AuthProvider({ children }) {
