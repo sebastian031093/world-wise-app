@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import AppNav from './AppNav';
 import Logo from './Logo';
-
+//new name.
 import styles from './SideBar.module.css';
 // TODO:create a new footer component
 function SideBar() {
